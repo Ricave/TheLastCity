@@ -1,0 +1,116 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 2022/6/21 上午11:09
+Description: Exception in server tick loop
+
+java.lang.NoSuchMethodError: 'java.util.Random net.minecraft.server.level.ServerLevel.m_5822_()'
+	at net.minecraft.world.entity.ExperienceOrb.handler$zza000$tryMergeToExisting(ExperienceOrb.java:1115) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:clumps.mixins.json:ExperienceOrbAccess,pl:mixin:APP:clumps.mixins.json:MixinExperienceOrb,pl:mixin:A}
+	at net.minecraft.world.entity.ExperienceOrb.m_147096_(ExperienceOrb.java) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:clumps.mixins.json:ExperienceOrbAccess,pl:mixin:APP:clumps.mixins.json:MixinExperienceOrb,pl:mixin:A}
+	at net.minecraft.world.entity.ExperienceOrb.m_147082_(ExperienceOrb.java:125) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:clumps.mixins.json:ExperienceOrbAccess,pl:mixin:APP:clumps.mixins.json:MixinExperienceOrb,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_21226_(LivingEntity.java:1357) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.entity.LivingEntity.m_6668_(LivingEntity.java:1344) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,re:mixin}
+	at net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:588) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1155) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.entity.player.Player.m_6469_(Player.java:861) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_playerentity_iswearing,xf:fml:xaeroworldmap:xaero_wm_playerentity_iswearing,re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_playerentity_iswearing,xf:fml:xaeroworldmap:xaero_wm_playerentity_iswearing}
+	at net.minecraft.server.level.ServerPlayer.m_6469_(ServerPlayer.java:673) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.m_142535_(LivingEntity.java:1485) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.entity.player.Player.m_142535_(Player.java:1539) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_playerentity_iswearing,xf:fml:xaeroworldmap:xaero_wm_playerentity_iswearing,re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_playerentity_iswearing,xf:fml:xaeroworldmap:xaero_wm_playerentity_iswearing}
+	at net.minecraft.world.level.block.Block.m_142072_(Block.java:388) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.entity.Entity.m_7840_(Entity.java:1015) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.m_7840_(LivingEntity.java:302) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,re:mixin}
+	at net.minecraft.server.level.ServerPlayer.m_8972_(ServerPlayer.java:945) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_7185_(ServerGamePacketListenerImpl.java:894) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket.m_5797_(ServerboundMovePlayerPacket.java:114) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading}
+	at net.minecraft.network.protocol.game.ServerboundMovePlayerPacket$Pos.m_5797_(ServerboundMovePlayerPacket.java:42) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading}
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading}
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading}
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:158) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:245) ~[server-1.19-20220607.102129-srg.jar%2354!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19
+	Minecraft Version ID: 1.19
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 372091392 bytes (354 MiB) / 1464860672 bytes (1397 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+	Identifier: Intel64 Family 6 Model 165 Stepping 2
+	Microarchitecture: unknown
+	Frequency (GHz): 2.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 2060
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f15
+	Graphics card #0 versionInfo: DriverVersion=30.0.15.1295
+	Graphics card #1 name: Intel(R) UHD Graphics
+	Graphics card #1 vendor: Intel Corporation (0x8086)
+	Graphics card #1 VRAM (MB): 1024.00
+	Graphics card #1 deviceId: 0x9bc4
+	Graphics card #1 versionInfo: DriverVersion=27.20.100.9365
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 32591.36
+	Virtual memory used (MB): 11689.15
+	Swap memory total (MB): 16384.00
+	Swap memory used (MB): 1622.45
+	JVM Flags: 2 total; -Xms1024M -Xmx2048M
+	Server Running: true
+	Player Count: 1 / 20; [ServerPlayer['RedChief114514'/96, l='ServerLevel[world]', x=403.54, y=70.00, z=-182.97]]
+	Data Packs: vanilla, mod:forge, mod:betterfpsdist (incompatible), mod:xaerominimap, mod:clumps (incompatible), mod:xaeroworldmap
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.1+10.0.1+main.e9521dc3
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 slf4jfixer PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19-20220607.102129-srg.jar               |Minecraft                     |minecraft                     |1.19                |DONE      |Manifest: NOSIGNATURE
+		betterfpsdist-1.19-1.5.jar                        |betterfpsdist mod             |betterfpsdist                 |1.19-1.5            |DONE      |Manifest: NOSIGNATURE
+		forge-1.19-41.0.44-universal.jar                  |Forge                         |forge                         |41.0.44             |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		Xaeros_Minimap_22.9.3_Forge_1.19.jar              |Xaero's Minimap               |xaerominimap                  |22.9.3              |DONE      |Manifest: NOSIGNATURE
+		Clumps-forge-1.18.2-8.0.0+10.jar                  |Clumps                        |clumps                        |8.0.0+10            |DONE      |Manifest: NOSIGNATURE
+		XaerosWorldMap_1.23.3_Forge_1.19.jar              |Xaero's World Map             |xaeroworldmap                 |1.23.3              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 2843435b-3348-41aa-a425-3bfe67d3356a
+	FML: 41.0
+	Forge: net.minecraftforge:41.0.44

@@ -1,0 +1,56 @@
+{
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2023-01-15 18:24:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2023-01-15 18:24:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2023-01-15 18:24:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2023-01-15 18:24:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2023-01-15 18:22:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2023-01-15 18:13:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2023-01-15 18:24:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2023-01-15 18:11:58 +0800",
+      "minecraft:stony_peaks": "2023-01-15 18:08:47 +0800",
+      "minecraft:dripstone_caves": "2023-01-15 18:07:58 +0800",
+      "minecraft:forest": "2023-01-15 18:28:13 +0800",
+      "minecraft:savanna": "2023-01-15 18:22:33 +0800",
+      "minecraft:plains": "2023-01-15 18:25:39 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 3105
+}
