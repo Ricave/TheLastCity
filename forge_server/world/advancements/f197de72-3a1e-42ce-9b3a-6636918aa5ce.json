@@ -17,9 +17,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/hopper_minecart": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "has_minecart": "2023-01-15 18:24:21 +0800"
+      "killed_by_something": "2023-01-15 18:13:33 +0800"
     },
     "done": true
   },
@@ -29,13 +29,7 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2023-01-15 18:13:33 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/chest_minecart": {
+  "minecraft:recipes/transportation/hopper_minecart": {
     "criteria": {
       "has_minecart": "2023-01-15 18:24:21 +0800"
     },
@@ -51,6 +45,12 @@
       "minecraft:plains": "2023-01-15 18:25:39 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2023-01-15 18:24:21 +0800"
+    },
+    "done": true
   },
   "DataVersion": 3105
 }
