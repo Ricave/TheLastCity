@@ -719,6 +719,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2023-02-23 14:06:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_candle": {
     "criteria": {
       "has_white_dye": "2022-06-27 18:52:56 +0800"
@@ -990,6 +996,7 @@
       "minecraft:wither_skeleton": "2022-07-02 18:40:43 +0800",
       "minecraft:ender_dragon": "2022-07-02 19:33:30 +0800",
       "minecraft:shulker": "2022-07-02 21:00:14 +0800",
+      "minecraft:piglin": "2023-02-23 15:45:21 +0800",
       "minecraft:enderman": "2022-07-02 19:13:39 +0800",
       "minecraft:silverfish": "2023-01-11 22:26:11 +0800",
       "minecraft:endermite": "2022-06-29 21:46:34 +0800",
