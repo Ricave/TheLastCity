@@ -287,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2023-02-28 15:37:30 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2022-06-21 20:28:25 +0800"
@@ -1098,6 +1104,12 @@
       "minecraft:nether_wastes": "2022-06-30 18:25:49 +0800",
       "minecraft:basalt_deltas": "2022-06-30 18:28:33 +0800",
       "minecraft:warped_forest": "2023-01-11 13:49:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2023-02-26 19:44:09 +0800"
     },
     "done": true
   },
@@ -3249,6 +3261,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2023-02-26 19:44:09 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
     "criteria": {
       "has_deepslate_bricks": "2023-01-04 00:01:04 +0800"
@@ -3587,6 +3605,12 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2022-06-25 19:15:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2023-02-26 19:44:09 +0800"
     },
     "done": true
   },
